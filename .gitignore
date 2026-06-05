@@ -1,0 +1,136 @@
+# Common
+node_modules/
+*.txt
+*.xlsx
+*.xls
+*.csv
+.pnp
+.pnp.*
+.vite/
+*.tsbuildinfo
+stats.html
+.vercel
+*.pem
+*.key
+core
+*.cpuprofile
+*.heapprofile
+*.memprofile
+pids
+*.pid
+*.seed
+*.pid.lock
+.temp
+.tmp
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Environment Variables
+*.env
+*.env.local
+*.env.test.local
+*.env.development.local
+*.env.production.local
+*.env.staging
+*.env.production
+*.env.development
+env.properties
+!*.env.example
+!**/.env.example
+
+# Backend
+/backend/dist/
+/backend/build/
+/backend/upload-tmp/
+/backend/tus-cache/
+/backend/uploads/
+
+# Frontend
+/frontend/.next/
+/frontend/out/
+
+# Admin
+/admin/dist/
+/admin/dist-ssr/
+
+# Documents
+/backend/documentation/
+swagger-spec.json
+swagger-spec.yaml
+
+# Database
+*.db
+*.db-journal
+.db-data/
+postgres-data/
+mysql-data/
+mongo-data/
+elasticsearch-data/
+redis-data/
+typeorm-ts-cli/
+
+# Linting & Testing
+coverage/
+.nyc_output/
+.eslintcache
+.stylelintcache
+.prettiercache
+.turbo
+.cache/
+
+# Playwright / Cypress
+test-results/
+cypress/screenshots/
+cypress/videos/
+
+# IDEs & Editors
+.idea/
+.history/
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System files & Temporary Backups
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Ehthumbs.db
+Desktop.ini
+
+# Backup file
+*.bak
+*.orig
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Local Disk Storage
+/disk/chunks/*
+!/disk/chunks/.gitkeep
+/disk/disk.json
+/disk/main.py
+/disk/.venv/
+.venv/
