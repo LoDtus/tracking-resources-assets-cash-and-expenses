@@ -6,18 +6,6 @@ import "./App.css";
 // thông báo thanh toán
 // mục tiêu tài chính, chi tiêu
 
-/*
-routes:
-/dashboard
-/transactions
-/accounts
-/categories
-/budgets
-/debts
-
-
- */
-
 export default function App() {
     return <div></div>;
 }
